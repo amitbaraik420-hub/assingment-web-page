@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "title": "Full-Stack Web Development",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch with hands-on projects.",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1000&auto=format&fit=crop",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "AI Art Generation Guide",
+    "instructor": "Alex Rivera",
+    "duration": "10 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Create stunning visuals using the latest AI prompting techniques.",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop",
+    "category": "Design"
+  },
+  {
+    "id": 4,
+    "title": "UI/UX Design Essentials",
+    "instructor": "Sarah Wilson",
+    "duration": "25 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Master Figma and user-centric design principles.",
+    "image": "https://images.unsplash.com/photo-1586717791821-3f44a563eb4c?q=80&w=1000&auto=format&fit=crop",
+    "category": "Design"
+  },
+  {
+    "id": 5,
+    "title": "Python for Data Science",
+    "instructor": "Michael Chen",
+    "duration": "30 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Analyze big data and build predictive models with Python.",
+    "image": "https://images.unsplash.com/photo-1551288049-bbbda536ad37?q=80&w=1000&auto=format&fit=crop",
+    "category": "Data Science"
+  },
+  {
+    "id": 6,
+    "title": "Advanced JavaScript Patterns",
+    "instructor": "David Miller",
+    "duration": "12 hours",
+    "rating": 4.8,
+    "level": "Advanced",
+    "description": "Clean code, performance optimization, and architectural patterns.",
+    "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?q=80&w=1000&auto=format&fit=crop",
+    "category": "Development"
+  },
+  {
+    "id": 7,
+    "title": "Mobile App Dev with Flutter",
+    "instructor": "Emily Blunt",
+    "duration": "22 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Build high-performance cross-platform apps from a single codebase.",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1000&auto=format&fit=crop",
+    "category": "Development"
+  },
+  {
+    "id": 8,
+    "title": "Digital Marketing Masterclass",
+    "instructor": "Mark Spencer",
+    "duration": "18 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Learn SEO, SEM, and social media marketing strategies.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop",
+    "category": "Marketing"
+  },
+  {
+    "id": 9,
+    "title": "Graphic Design for Social Media",
+    "instructor": "Linda G.",
+    "duration": "8 hours",
+    "rating": 4.4,
+    "level": "Beginner",
+    "description": "Design eye-catching posts for Instagram and LinkedIn.",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop",
+    "category": "Design"
+  },
+  {
+    "id": 10,
+    "title": "Cloud Computing with AWS",
+    "instructor": "Chris Evans",
+    "duration": "28 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Master AWS services, security, and scalable infrastructure.",
+    "image": "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?q=80&w=1000&auto=format&fit=crop",
+    "category": "Cloud"
+  },
+  {
+    "id": 11,
+    "title": "Node.js Backend Mastery",
+    "instructor": "Robert Pattinson",
+    "duration": "20 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Build scalable APIs and manage real-time databases.",
+      "image": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1000&auto=format&fit=crop",
+    "category": "Development"
+  },
+  {
+    "id": 12,
+    "title": "Cyber Security Basics",
+    "instructor": "Kevin Mitnick",
+    "duration": "15 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn how to protect networks and personal data from hackers.",
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1000&auto=format&fit=crop",
+    "category": "Security"
+  },
+  {
+    "id": 13,
+    "title": "Machine Learning with R",
+    "instructor": "Sophia Loren",
+    "duration": "35 hours",
+    "rating": 4.6,
+    "level": "Advanced",
+    "description": "Statistical modeling and predictive analysis using R.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1000&auto=format&fit=crop",
+    "category": "Data Science"
+  },
+  {
+    "id": 14,
+    "title": "Tailwind CSS Workshop",
+    "instructor": "Tom Holland",
+    "duration": "6 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Design modern websites rapidly without leaving your HTML.",
+    "image": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1000&auto=format&fit=crop",
+    "category": "Development"
+  },
+  {
+    "id": 15,
+    "title": "Photography for Beginners",
+    "instructor": "Annie Leibovitz",
+    "duration": "14 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Master your camera settings and composition techniques.",
+      "image": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=1000&auto=format&fit=crop",
+    "category": "Photography"
+  },
+  {
+    "id": 16,
+    "title": "MongoDB Database Design",
+    "instructor": "Bill Gates",
+    "duration": "10 hours",
+    "rating": 4.5,
+    "level": "Intermediate",
+    "description": "Efficient NoSQL schema design and aggregation pipelines.",
+      "image": "https://images.unsplash.com/photo-1543852021-c1b18ccfca1e?q=80&w=1000&auto=format&fit=crop",
+    "category": "Development"
+  }
+]
