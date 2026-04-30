@@ -3,6 +3,7 @@
 import {Check} from "@gravity-ui/icons";
 import {Button, Description, FieldError, Form, Input, Label, TextField} from "@heroui/react";
 import { authClient } from "../lib/auth-client";
+import { FaGoogle } from "react-icons/fa";
 
 
 export default function SignIn() {
@@ -19,10 +20,13 @@ export default function SignIn() {
     callbackURL: "/"
    });
    console.log(error,data)
-  
-   
-   
   };
+
+  const handelsigninGoogle = async () => {
+    await authClient.signIn.social({
+      provider:"google",
+    })
+  }
   return (
     <div className="justify-center my-6 border-2 border-gray-200 rounded-lg w-md mx-auto p-8">
          <p className="text-xl font-bold text-center  mt-4">SignIn</p>
@@ -75,7 +79,13 @@ export default function SignIn() {
           Reset
         </Button>
       </div>
+
     </Form>
+     <p className="text-center">or</p>
+     <div className="flex justify-center items-center">
+           <Button onClick={handelsigninGoogle} className="w-full"> <FaGoogle />Sign in with Google</Button>
+     </div>
+   
     </div>
   )
 }
