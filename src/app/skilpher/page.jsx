@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGraduationCap, FaBolt, FaTrophy } from 'react-icons/fa'; // আইকনের জন্য react-icons ব্যবহার করুন
+import { FaGraduationCap, FaBolt, FaTrophy } from 'react-icons/fa'; 
 
 const WhyChooseUs = () => {
   const features = [

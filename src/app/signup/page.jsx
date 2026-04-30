@@ -3,9 +3,12 @@
 import {Check} from "@gravity-ui/icons";
 import {Button, Description, FieldError, Form, Input, Label, TextField} from "@heroui/react";
 import { authClient } from "../lib/auth-client";
+import { useRouter } from "next/navigation";
+
 
 
 export default function SignUp() {
+  const router = useRouter();
      const onSubmit = async (e) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
@@ -16,15 +19,20 @@ export default function SignUp() {
     email:Data.email,
     password:Data.password,
      rememberMe: true,
-    callbackURL: "/"
+    callbackURL: "/",
    });
    console.log(error,data)
-  
+  if(!error){
+    router.push("/")
+  }
    
    
   };
   return (
-    <div className="flex h-screen justify-center my-5 ">
+   
+    <div className="justify-center my-6 border-2 border-gray-200 rounded-lg w-md mx-auto p-8">
+         <p className="text-xl font-bold text-center  mt-4">SignUp</p>
+
         <Form className="flex w-96 flex-col gap-4 " onSubmit={onSubmit}>
        <TextField
             isRequired
@@ -90,6 +98,7 @@ export default function SignUp() {
       </div>
     </Form>
     </div>
+   
   )
 }
  

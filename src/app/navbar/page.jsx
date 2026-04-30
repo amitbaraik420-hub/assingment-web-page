@@ -35,7 +35,7 @@ export default function Navbar() {
   <div className="navbar-end gap-3">
 
     <Link href="/signin">
-          <p className='font-bold'>SignIn</p>
+          <p className='font-bold text-red-500'>SignIn</p>
     </Link>
       <Link href="/signup">
           <p className='font-bold'>SignUp</p>
