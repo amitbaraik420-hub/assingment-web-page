@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import Profile from './app/(profile)/profile/page'
 import { headers } from 'next/headers';
+import { auth } from './app/lib/auth';
 
  
 // This function can be marked `async` if using `await` inside
@@ -14,5 +15,5 @@ export async function proxy(request) {
 }
  
 export const config = {
-  matcher:["/Profile","/profile/:path*"] ,
+  matcher:["/Profile","/courses/:path*"] ,
 }
