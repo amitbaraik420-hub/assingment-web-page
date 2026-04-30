@@ -16,6 +16,7 @@ export default function SignUp() {
     console.log(Data)
    const {error,data} = await authClient.signUp.email({
     name:Data.name,
+    image:Data.image,
     email:Data.email,
     password:Data.password,
      rememberMe: true,
@@ -48,7 +49,29 @@ export default function SignUp() {
             <Input placeholder="John Doe" />
             <FieldError />
         </TextField>
+       <TextField
+  isRequired
+  name="image"
+  type="url"
+  validate={(value) => {
+    if (!value) return "Image URL is required";
+    
+    
+    const isImage = /\.(jpg|jpeg|png|webp|avif|gif|svg)$/.test(value);
+    
+    if (!isImage) {
+      return "Please enter a valid image link";
+    }
+    return null;
+  }}
+>
+  <Label>Image URL</Label>
+  <Input placeholder="https://example.com/image.jpg" />
+  <FieldError />
+</TextField>
 
+
+        {/* image */}
       <TextField
         isRequired
         name="email"
